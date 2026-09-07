@@ -6,6 +6,12 @@ A command-line tool that reads raw, messy survey exports and generates a structu
 
 ## 1. Quick Start
 
+### Prerequisites
+```bash
+cp .env.example .env
+# Edit .env with your Gemini API key if desired (optional — uses code-based clustering with zero cost)
+```
+
 ### Run CLI
 ```bash
 python digest.py --input task3_data/responses_sample.csv --week 2026-08-17 --out outputs/digest_2026-08-17.md
